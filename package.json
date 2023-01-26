@@ -1,0 +1,46 @@
+{
+  "name": "functional-utils-eamon",
+  "version": "1.0.1",
+  "description": "utils for functional programing",
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "keywords": [
+    "javascript",
+    "functional",
+    "utils",
+    "functional-utils",
+    "typescript"
+  ],
+  "repository": "https://github.com/eamon3481/functional-utils",
+  "author": {
+    "name": "eamon3481",
+    "email": "eamon3481@naver.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm": "npm login",
+    "deploy": "npm whoami && npm publish --access=public"
+  },
+  "typings": "./src/index.d.ts",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.11.18",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^8.32.0",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.4"
+  }
+}
