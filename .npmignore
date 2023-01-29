@@ -1,1 +1,5 @@
 example
+
+__test__
+
+*.test.js
