@@ -35,10 +35,15 @@ $ yarn test
 - map
 - filter
 - reduce
+- pipe
 
 #### lazy version
 
-- (not yet)
+- forEach
+- map
+- filter
+- reduce
+- take
 
 ## Usage
 
@@ -48,9 +53,9 @@ import { forEach, filter, map, pipe } from 'functional-utils-eamon';
 const data = [1, 2, 4];
 
 pipe(
- filter((x) => x > 1),
- map((x) => x * 2),
- forEach((x) => console.log(x))
+  filter((x) => x > 1),
+  map((x) => x * 2),
+  forEach((x) => console.log(x))
 )(data); // [4,8]
 ```
 

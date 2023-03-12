@@ -1,6 +1,6 @@
 {
   "name": "functional-utils-eamon",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "utils for functional programing",
   "main": "./dist/index.js",
   "module": "./src/index.js",
