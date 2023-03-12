@@ -3,7 +3,7 @@ export interface callbackFn<T, Return = void> {
 }
 
 export interface reduceCallbackFn<T, Return = any> {
- (accumulator: T | NonNullable<Return>, value: T, index: number, array: T[]):
+ (accumulator: T | Return, value: T, index: number):
   | T
-  | NonNullable<Return>;
+  | Return;
 }
